@@ -14,6 +14,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:onClick="onJankenButtonTapped"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,10 +23,11 @@
         app:srcCompat="@drawable/choki" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/gu"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onJankenButtonTapped"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/choki"
         app:layout_constraintTop_toTopOf="@+id/choki"
@@ -36,6 +38,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
+        android:onClick="onJankenButtonTapped"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toEndOf="@+id/choki"
         app:layout_constraintTop_toTopOf="@+id/choki"
